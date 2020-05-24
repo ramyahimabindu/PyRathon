@@ -37,8 +37,6 @@ sorted(DataFrame['WT'])
 q1,q3= np.percentile (DataFrame['WT'], [25,75])  #q1=29.591 #q3=37.392
 iqr=q3-q1 #7.80075
 
-np.median(columns=['SP','WT','HP','VOL','MPG'])
-
 
  # creating histograms on single graph
 means = 117.469,98.765,121.54,32.412,34.422
